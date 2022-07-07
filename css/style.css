@@ -470,7 +470,7 @@ a.join-wthree:hover {
     width: 70px;
     position: absolute;
     top: 132%;
-    right: 47%;
+    right: 42%;
 }
 span.nnn {
     color: #fff;
@@ -602,8 +602,8 @@ p.white-clrf {
 .wthree-subscribef-w3ls h3.tittlef-agileits-w3layouts {
     text-align: left;
     font-size: 2.7em;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.29);
-    color: #778899;
+    /*text-shadow: 0 1px 2px rgba(0, 0, 0, 0.29);*/
+    color: #335372;
     letter-spacing: 2px;
     text-transform: capitalize;
     margin-bottom: 1em;
@@ -1236,6 +1236,11 @@ h3.agileits-icons-title {
     /*H edit*/
     .pricing-col{
         margin: 30px 0;
+    }
+
+    .heading-agileinfo{
+        text-align: center;
+        margin-top: 20px;
     }
 }
 @media (max-width: 640px){
@@ -2238,6 +2243,7 @@ button.close {
 	.banner-dott1 {
 		min-height: 485px;
 	}
+
 }
 @media screen and (max-width: 991px){
 	.navbar-nav>li {
@@ -3175,3 +3181,53 @@ a.join-wthree {
 }
 
 /* //Responsive design */
+.heading-agileinfo.about-div{
+    margin-bottom: 2em;
+}
+.heading-agileinfo.color-dark{
+    color: #364452;
+}
+
+.w-100{
+    width: 100% !important;
+}
+.mt-0{
+    margin-top: 0 !important;
+}
+.div-booking{
+    margin: 0 auto;
+    text-align: center;
+}
+@media (min-width: 1024px){
+    .heading-agileinfo{
+        margin-top: 0 !important;
+    }
+}
+@media (min-width: 768px){
+
+    .heading-agileinfo.about-div{
+        text-align: left;
+        margin-top: 20px;
+    }
+    .text-left{
+        text-align: left;
+    }
+    .margin-top-md{
+        margin-top: 0 !important;
+    }
+    .heading-agileinfo.about-div span:after{
+        left: 0 !important;
+    }
+
+    .heading-agileinfo span:after {
+        right: 46%;
+    }
+    .div-booking{
+        text-align: left;
+    }
+}
+@media (min-width: 1440px){
+    .heading-agileinfo span:after {
+        right: 47%;
+    }
+}
